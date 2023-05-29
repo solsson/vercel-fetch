@@ -35,7 +35,7 @@ Some errors are very common in production (like the underlying `Socket`
 yielding `ECONNRESET`), and can easily and instantly be remediated
 by retrying.
 
-The default behavior of `fetch-retry` is to attempt retries **10**, **60**
+The default behavior of `fetch-retry` is to attempt retries **10**, **60**,
 **360**, **2160** and **12960** milliseconds (a total of 5 retries) after
 a _network error_, _429_ or _5xx_ error occur.
 
